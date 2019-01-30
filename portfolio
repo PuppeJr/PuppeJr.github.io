@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <charset utf-8>
+    <link rel="stylesheet" type="text/css" href="testecs.css">
+        <main class="wrapper">
+          <section class="section bg1">
+              <p class="text" >PORTFÓLIO PROFISSIONAL</p>
+           </section>
+      		<section class="section bg2">
+        		<p class="text" >ANÁLISE DESENVOLVIMENTO DE SISTEMAS
+        		                    (IFRS) CAMPUS RESTINGA</p>
+      		</section>
+      			<section class="section bg3">
+        			<p class="text" >DADOS PESSOAIS</p>
+      			</section>
+      				<section class="section bg4">
+      					<p class="text">Nome: Paulo Fernando Puppe Junior<br>
+      					Cidade: Porto Alegre/RS<br>Tel:(51)993697954 WhatsApp<br>(51)32091355</p>
+      				</section>
+      				<section class="section bg5">
+      					<p class="text">CURSOS REALIZADOS
+      				</section>
+      						<section class="section bg6">
+      					        <p class="text"><br>Informática:<br>HTML – Parte 1: Introdução ao Desenvolvimento de Páginas Web<br>
+      					            <br>Banco de Dados I (MY Sql)
+      					    </section>
+      					        <section class="section bg7">
+      					            <p class="text">Cursos Profissionalizantes<br>
+      						Auxiliar Administrativo (SENAC)
+      					        </section>
+      					            <section class="section bg8">
+      					                <p class="text">Objetivo Profissional<br>“Contribuir para que meus conhecimentos possam trazer benefícios e crescimento para a empresa, aprimorando também minhas habilidades profissionais”<br>
+      					            </section>
+      					    
+      			
+      					<section class="section bg9">
+      					    <p class="text">Objetivos Profissionais<br>
+      						Desempenhar com eficiência o aprendizado nesses 6 primeiros meses em que estou cursando Análise Desenvolvimento de Sistemas
+      					</section>
+      					    <section class="section bg10">
+        			            <p class="text" >Somam-se a minha experiência os cursos:<br>
+    Microinformática, MS-DOS, Windows, Auxiliar Administrativo Cursos do SENAC.</p>
+      			            </section>
+      			               <section class="section bg11">
+        			            <p class="text" >O que é para mim trabalho em equipe? <br>
+    "Unir-se é um bom começo, manter a união é um progresso, e trabalhar em conjunto é a vitória<br>
+                               </section> 
+    
+    Henry Ford
+      			                   
+
+    
+</html>
