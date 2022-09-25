@@ -99,7 +99,7 @@ body,html{margin:0;padding:0;}
   /* Essa classe, como dito antes, é só para o nosso conteúdo.
   Sinta-se livre para criar o que quiser.
   */
-  position: absolute;
+  position: flex;
   top: 25%;
   width: 100%;
   padding: 20px 0;
