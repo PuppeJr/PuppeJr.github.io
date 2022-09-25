@@ -117,38 +117,38 @@ mas não indicamos qual será a imagem.
   uma imagem diferente para cada <section>.
 */
 .bg1::before {
-  background-image: url('terra.jpg');
+  background-image: url(./images/terra.jpg);
 }
 
 .bg2::before {
-  background-image: url('nasa.jpg');
+  background-image: url(./images/nasa.jpg);
 }
 
 .bg3::before {
-  background-image: url('mundo.png');
+  background-image: url(./images/mundo.png);
 }
 .bg4::before {
-  background-image: url('criatividade.jpg');
+  background-image: url(./images/criatividade.jpg);
 }
 .bg5::before {
-  background-image: url('DeltaHalo.jpg');
+  background-image: url(./images/DeltaHalo.jpg);
 }
 .bg6::before {
-  background-image: url('apple.jpg');
+  background-image: url(./images/apple.jpg);
 }
 .bg7::before {
-  background-image: url('bin.jpg');
+  background-image: url(./images/bin.jpg);
 }
 .bg8::before {
-  background-image: url('4bits.png');
+  background-image: url(./images/nasa.jpg);
 }
 .bg9::before {
-  background-image: url('terra.jpg');
+  background-image: url(./images/terra.jpg);
 }
 .bg10::before {
-  background-image: url('mundo.png');
+  background-image: url(./images/mundo.png);
 }
 .bg11::before {
-  background-image: url('group.jpg');
+  background-image: url(./images/group.jpg);
 }
 
