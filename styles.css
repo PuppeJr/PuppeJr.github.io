@@ -82,7 +82,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   <--no-repeat-->background-position: center center;
-  
+
 
 
   /* Aqui está a brincadeira. Lembra que o nosso "wrapper" está
@@ -98,7 +98,7 @@ html {
   mais lentamente do que os elementos mais próximos conforme 
   a gente role a página.
   */
-  transform:  translateZ(-1px) scale(1.5);
+  transform: translateZ(-1px) scale(1.5);
 }
 
 .text {
@@ -115,6 +115,11 @@ html {
   text-shadow: 0 0 5px rgb(17, 17, 5);
   font-size: 20px;
   text-align: center;
+}
+
+header .imageContainer {
+  width: 80%;
+  max-width: 230px;
 }
 
 /* Em nosso pseudo-elemento, configuramos a imagem de fundo,
@@ -159,7 +164,7 @@ mas não indicamos qual será a imagem.
 }
 
 .bg10::before {
-  background-image: url(./images/mundo.png);
+  background-image: url(./images/6yuYHKv.jpg);
 }
 
 .bg11::before {
