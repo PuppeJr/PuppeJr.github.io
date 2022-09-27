@@ -117,10 +117,7 @@ html {
   text-align: center;
 }
 
-header .imageContainer {
-  width: 80%;
-  max-width: 230px;
-}
+
 
 /* Em nosso pseudo-elemento, configuramos a imagem de fundo,
 mas não indicamos qual será a imagem.
