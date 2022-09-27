@@ -80,7 +80,7 @@ html {
   /* Aqui estamos fazendo com que a imagem de fundo cubra todo o
   elemento */
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   <--no-repeat-->background-position: center center;
   
 
@@ -98,7 +98,7 @@ html {
   mais lentamente do que os elementos mais próximos conforme 
   a gente role a página.
   */
-  transform : translateZ(-1px) scale(1.5);
+  transform:  translateZ(-1px) scale(1.5);
 }
 
 .text {
@@ -113,7 +113,7 @@ html {
 
   color: #fafafa;
   text-shadow: 0 0 5px rgb(17, 17, 5);
-  font-size: 50px;
+  font-size: 20px;
   text-align: center;
 }
 
