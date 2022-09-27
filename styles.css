@@ -82,7 +82,7 @@ html {
   background-size: cover;
   background-repeat: repeat;
   <--no-repeat-->background-position: center center;
-  cursor : pointer
+  
 
 
   /* Aqui está a brincadeira. Lembra que o nosso "wrapper" está
@@ -98,7 +98,7 @@ html {
   mais lentamente do que os elementos mais próximos conforme 
   a gente role a página.
   */
-  transform: translateZ(-1px) scale(1.5);
+  transform : translateZ(-1px) scale(1.5);
 }
 
 .text {
@@ -109,10 +109,10 @@ html {
   top: 25%;
   width: 100%;
   padding: 20px 0;
-  background-image: -webkit-linear-gradient(blue, #E0FFFF);
+  background-image: -webkit-linear-gradient(blue, #fafafa);
 
-  color: #FFFFFF;
-  text-shadow: 0 0 5px #000;
+  color: #fafafa;
+  text-shadow: 0 0 5px rgb(17, 17, 5);
   font-size: 50px;
   text-align: center;
 }
