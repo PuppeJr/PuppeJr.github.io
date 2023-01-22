@@ -18,5 +18,13 @@ public class Calc {
             System.out.println(resultado);
 
         }
+        if(operador == 2) {
+            resultado = numero1 - numero2;
+            System.out.println(resultado);
+        }
+        if(operador == 3) {
+            resultado = numero1 * numero2;
+            System.out.println(resultado);
+        }
     }
 }
