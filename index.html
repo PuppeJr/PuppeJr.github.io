@@ -6,6 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+    }
+  </style>
   <title>Puppe Jr</title>
 </head>
 
@@ -22,6 +30,8 @@
       </ul>
     </nav>
   </header>
+
+  <a href="#header" class="back-to-top">&#8593; Voltar para o Cabeçalho</a>
 
   <main class="wrapper">
     <section id="portfolio" class="section bg1">
@@ -74,6 +84,17 @@
       <p class="text">O que é para mim trabalho em equipe? <br>"Unir-se é um bom começo, manter a união é um progresso, e trabalhar em conjunto é a vitória</br> <br> Henry Ford</p>
     </section>
   </main>
+
+  <script>
+    window.addEventListener('scroll', function () {
+      var backToTopButton = document.querySelector('.back-to-top');
+      if (window.scrollY >= 400) {
+        backToTopButton.style.display = 'block';
+      } else {
+        backToTopButton.style.display = 'none';
+      }
+    });
+  </script>
 </body>
 
 </html>
