@@ -57,6 +57,34 @@ html {
   background-image: url(./images/nasa.jpg);
 }
 
+.bg3::before {
+  background-image: url(./images/6yuYHKv.jpg);
+}
+
+.bg4::before {
+  background-image: url(./images/DeltaHalo.jpg);
+}
+
+.bg5::before {
+  background-image: url(./images/apple.jpg);
+}
+
+.bg6::before {
+  background-image: url(./images/criatividade.jpg);
+}
+
+.bg7::before {
+  background-image: url(./images/mundo.png);
+}
+
+.bg8::before {
+  background-image: url(./images/bin.jpg);
+}
+
+.bg9::before {
+  background-image: url(./images/group.jpg);
+}
+
 /* ... outras classes bg3 até bg11 */
 
 /* Ajustes para telas menores */
