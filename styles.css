@@ -82,6 +82,14 @@ html {
 }
 
 .bg9::before {
+  background-image: url(./images/criatividade.jpg);
+}
+
+.bg10::before {
+  background-image: url(./images/6yuYHKv.jpg);
+}
+
+.bg11::before {
   background-image: url(./images/group.jpg);
 }
 
