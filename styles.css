@@ -1,103 +1,44 @@
-/* Reset de margens e preenchimentos */
-body,
-html {
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 
-/* Classe para o contêiner principal */
-.wrapper {
-  height: 100vh;
-  overflow-x: hidden;
-  perspective: 2px;
-  transform-style: preserve-3d;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-/* Estilos para cada seção */
-.section {
-  position: relative;
-  height: 100vh;
-  min-height: 700px;
-  transform-style: inherit;
+/* Estilos específicos */
+header, section, footer {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
 }
 
-.section::before {
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  transform: translateZ(-1px) scale(1.5);
+h1, h2, h3 {
+  color: #333;
 }
 
-/* Estilos para o texto */
-.text {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-  padding: 20px 0;
-  background-image: linear-gradient(blue, #fafafa);
-  color: #fafafa;
-  text-shadow: 0 0 5px rgb(17, 17, 5);
-  font-size: 20px;
-  text-align: center;
+a {
+  color: blue;
 }
 
-/* Classes para diferentes imagens de fundo */
-.bg1::before {
-  background-image: url(./images/terra.jpg);
+/* Estilos para seções específicas */
+#skills ul, #experience article ul {
+  padding-left: 20px;
 }
 
-.bg2::before {
-  background-image: url(./images/nasa.jpg);
+#experience article {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.bg3::before {
-  background-image: url(./images/6yuYHKv.jpg);
-}
-
-.bg4::before {
-  background-image: url(./images/DeltaHalo.jpg);
-}
-
-.bg5::before {
-  background-image: url(./images/apple.jpg);
-}
-
-.bg6::before {
-  background-image: url(./images/criatividade.jpg);
-}
-
-.bg7::before {
-  background-image: url(./images/mundo.png);
-}
-
-.bg8::before {
-  background-image: url(./images/bin.jpg);
-}
-
-.bg9::before {
-  background-image: url(./images/criatividade.jpg);
-}
-
-.bg10::before {
-  background-image: url(./images/6yuYHKv.jpg);
-}
-
-.bg11::before {
-  background-image: url(./images/group.jpg);
-}
-
-/* ... outras classes bg3 até bg11 */
-
-/* Ajustes para telas menores */
-@media (max-width: 768px) {
-  .text {
-    font-size: 16px;
-  }
+#experience article:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
