@@ -3,109 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Puppe Jr.</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio - Paulo Fernando Puppe Junior</title>
 </head>
 <body>
     <header>
-        <h1>Puppe Jr.</h1>
-        <p>Desenvolvedor em Ascensão</p>
+        <h1>Paulo Fernando Puppe Junior</h1>
         <nav>
             <ul>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#cursos">Cursos</a></li>
-                <li><a href="#objetivo">Objetivo</a></li>
-                <li><a href="#metas">Metas</a></li>
-                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#competencias">Competências</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="#formacao">Formação</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="wrapper">
-        <section id="portfolio" class="section bg1">
-            <div class="container">
-                <h2 class="text">PORTFÓLIO PROFISSIONAL</h2>
-                <div class="buttons">
-                    <button onclick="window.location.href = 'http://github.com/PuppeJr'">Meus Repositórios GitHub</button>
-                    <button onclick="window.location.href = 'https://docs.google.com/document/d/1M91H2i4DBpyl3_2iDiKEp7tI3MLluPpQHEW6i0PtUhc/edit?usp=sharing./images/profile.pdf'">Curriculum Vitae</button>
-                    <button onclick="window.location.href='https://www.linkedin.com/in/paulo-fernando-puppe-junior/'">Linkedin</button>
+    <main>
+        <section id="sobre" class="section bg1">
+            <div class="sobre-container">
+                <img src="foto.jpg" alt="Foto do Paulo">
+                <div class="sobre-texto">
+                    <h2>Conheça Paulo</h2>
+                    <p>Profissional de tecnologia qualificado com experiência em Front End, Gestão de Projetos e Empreendedorismo.</p>
+                    <p>Habilidades:</p>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Flutter</li>
+                        <li>Pensamento Computacional</li>
+                    </ul>
+                    <button onclick="window.location.href='https://github.com/PuppeJr'">GitHub</button>
                 </div>
             </div>
         </section>
 
-        <section id="sobre" class="section bg2">
-            <div class="container">
-                <h2 class="text">Olá! Eu sou Paulo. </h2>
-                <p class="description">Sou Estudante de Análise de Sistemas com paixão por criar experiências de usuário envolventes e divertidas.</p>
+        <section id="competencias" class="section bg2">
+            <div class="competencias-container">
+                <h2>Principais Competências</h2>
+                <div class="competencias-cards">
+                    <div class="card">
+                        <img src="icone-videogames.png" alt="Videogames">
+                        <h3>Videogames</h3>
+                    </div>
+                    <div class="card">
+                        <img src="icone-observacao.png" alt="Observação">
+                        <h3>Observação</h3>
+                    </div>
+                    <div class="card">
+                        <img src="icone-listas-de-verificacao.png" alt="Listas de Verificação">
+                        <h3>Listas de Verificação</h3>
+                    </div>
+                    <div class="card">
+                        <img src="icone-certifications.png" alt="Certifications">
+                        <h3>Certifications</h3>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="section bg3">
-            <div class="container">
-                <h2 class="text">Sobre Mim</h2>
-                <p class="description">
-                    (Adicione aqui seu resumo profissional, destacando habilidades, experiências e objetivos.)
-                </p>
+        <section id="experiencias" class="section bg3">
+            <div class="experiencias-container">
+                <h2>Experiências</h2>
+                <div class="experiencias-cards">
+                    <div class="card">
+                        <img src="icone-compass.png" alt="Compass.uol">
+                        <h3>Compass.uol</h3>
+                        <p>Trainee Quality Assurance</p>
+                        <ul>
+                            <li>Teste de Software</li>
+                            <li>Planejamento de Testes</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="icone-ifrs.png" alt="IFRS">
+                        <h3>IFRS - Campus Restinga</h3>
+                        <p>Bolsista de Iniciação Científica</p>
+                        <ul>
+                            <li>Levantamento de Requisitos</li>
+                            <li>Implementação de Entidades</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="icone-ifrs.png" alt="IFRS">
+                        <h3>IFRS - Campus Porto Alegre</h3>
+                        <p>Bolsista de Iniciação Científica</p>
+                        <ul>
+                            <li>Desenvolvimento de Site em WordPress</li>
+                            <li>Pesquisa de Textos Falsos</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="cursos" class="section bg4">
-            <div class="container">
-                <h2 class="text">Cursos e Projetos</h2>
-                <p class="description">
-                    Profissional de Tecnologia Qualificado com Experiência em:
-
-          Front End (HTML5, CSS3, JavaScript, Flutter)
-          Gestão de Projetos
-          Empreendedorismo
-          Testes de Software (Funcional, Integração, Unidade, Regressão, Aceitação do Usuário)
-          Planejamento de Testes
-          Desenvolvimento de Websites (WordPress)
-          Pensamento Computacional
-          Cybersecurity Blue Team Student
-          Governança de TI
-          Habilidades:
-                          
-          Colaborador eficaz
-          Experiência em Visual Studio Code, Git e GitHub
-          Pensamento Computacional
-          Habilidades de comunicação e interpessoais
-          Capacidade de trabalhar de forma independente e como parte de uma equipe
-          Motivação para aprender e se desenvolver
-                </p>
-            </div>
-        </section>
-
-        <section class="section bg5">
-            <div class="container">
-                <h2 class="text">CURSOS REALIZADOS / PROJETOS</h2>
-                <p class="description">
-                    (Liste seus cursos e projetos de forma organizada, incluindo instituições, datas e links.)
-                </p>
-            </div>
-        </section>
-
-        <section class="section bg6">
-            <div class="container">
-                <h2 class="text">Informática</h2>
-                <p class="description">
-                    (Detalhe seus cursos e conhecimentos na área de informática, como HTML, MySQL, etc.)
-                </p>
-                <script src="https://tryhackme.com/badge/2734740"></script>
-            </div>
-        </section>
-
-        <section class="section bg7">
-            <div class="container">
-                <h2 class="text">Cursos Profissionalizantes</h2>
-                <p class="description">
-                    (Liste seus cursos profissionalizantes, como Auxiliar Administrativo, etc.)
-                </p>
-            </div>
-        </section>
-
-        <section id="objetivo" class="section bg8">
-            <div class="container">
-                <h2 class="text">Objetivo Profissional</h2>
+        <section id="formacao" class
