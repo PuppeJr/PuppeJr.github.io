@@ -12,7 +12,7 @@ body, html {
 }
 
 .parallax-bg {
-    background-image: url('background.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-image: url('./images/terra.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
     height: 100%;
     background-attachment: fixed;
     background-position: center;
