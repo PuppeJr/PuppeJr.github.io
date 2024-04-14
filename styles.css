@@ -1,44 +1,60 @@
-/* Estilos gerais */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
 }
 
-/* Estilos específicos */
-header, section, footer {
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
+.parallax-bg {
+    background-image: url('./images/mundo.png'); /* substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+.content {
+    padding: 50px 20px;
+}
+
+header, section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 h1, h2, h3 {
-  color: #333;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 a {
-  color: blue;
-}
-
-/* Estilos para seções específicas */
-#skills ul, #experience article ul {
-  padding-left: 20px;
+    color: blue;
 }
 
 #experience article {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #experience article:last-of-type {
-  border-bottom: none;
-  padding-bottom: 0;
-  margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
