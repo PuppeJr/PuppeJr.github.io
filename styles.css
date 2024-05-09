@@ -12,9 +12,8 @@ body, html {
 }
 
 .parallax-bg {
-    background-image: url('./images/nasa.jpg'); /* substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-image: url(".home/images/icone-compass.png"); /* substitua 'background.jpg' pelo caminho da sua imagem de fundo */
     height: 100vh;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
