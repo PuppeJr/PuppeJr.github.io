@@ -5,41 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>Portfólio - Paulo Fernando Puppe Junior</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
         <h1>Paulo Fernando Puppe Junior</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#competencias">Competências</a></li>
-                <li><a href="#experiencias">Experiências</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <button onclick="window.location.href='https://github.com/PuppeJr'">GitHub</button>
+        <button onclick="window.location.href='https://linkedin.com/in/paulo-fernando-puppe-junior'">LinkedIn</button>
     </header>
 
     <main>
+        <section id="contato">
+            <div class="contato-container">
+                <h2>Contato</h2>
+                <p>Entre em Contato Comigo:</p>
+                <article>
+                    <h3>Telefone: (51)992379901 (WhatsApp)</h3>
+                    <div class="whatsapp-container">
+                        <span class="fa-brands fa-whatsapp"></span>
+                        <span>WhatsApp</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
         <section id="sobre">
-            <h1> Sobre:
-            <h4><br><p>Com mais de 10 anos de experiência em Linux e Windows, <p>sou estudante de Java e tenho expertise em desenvolvimento Front-End.
-            <br>Possuo habilidades sólidas em gestão de projetos e empreendedorismo,<p> além de proficiência em HTML5, CSS3, JavaScript e Flutter.<p>
-            <br>Utilizo ferramentas como Visual Studio Code e GitHub <p>para colaboração em projetos, e tenho conhecimento em MySql
-            <br>e resolução de desafios de código em Java.<p>
-            <br>Interessado em tecnologia, estou sempre me atualizando com <p>as últimas tendências e aberto a conexões profissionais para projetos inovadores. 
-            <br>Confira meu perfil no GitHub: https://github.com/PuppeJr.<p>
-
-                    <button onclick="window.location.href='https://github.com/PuppeJr'">GitHub</button>
-                    <button onclick="window.location.href='https://linkedin.com/in/paulo-fernando-puppe-junior'">linkedin</button>
+            <h2>Sobre</h2>
+            <p>Com mais de 10 anos de experiência em Linux e Windows, sou estudante de Java e tenho expertise em desenvolvimento Front-End.<p> Possuo habilidades sólidas em gestão de projetos e empreendedorismo, além de proficiência em HTML5, CSS3, JavaScript e Flutter.<p> Utilizo ferramentas como Visual Studio Code e GitHub para colaboração em projetos,<p> e tenho conhecimento em MySql e resolução de desafios de código em Java.<p>
+                Interessado em tecnologia, estou sempre me atualizando com as últimas tendências e aberto a conexões profissionais para projetos inovadores.</p>
         </section>
 
         <section id="competencias">
-            <h1>Competências<p>
-            1- Com Habilidades técnicas de QA com estruturas de Casos de Teste(Manual) e<p> utilizando a Ferramenta X|Decision para a Tabela de Decisão 
+            <h2>Competências</h2>
+            <p>Com habilidades técnicas de QA com estruturas de Casos de Teste (Manual) e utilizando a Ferramenta X|Decision para a Tabela de Decisão.</p>
         </section>
 
         <section id="experiencias">
+            <h2>Experiência</h2>
             <div class="experiencias-cards">
                 <div class="card">
                     <img src="./images/icone-compass.png" alt="Compass.uol">
@@ -53,59 +55,44 @@
                         <li>Mapa Mental</li>
                     </ul>
                 </div>
+            </div>
         </section>
 
         <section id="formacao">
-            <img src="./images/redimensionado2.jpg" alt="IFRS">
-                        <h3>IFRS - Campus Restinga</h3>
-                        <p>Bolsista de Iniciação Científica</p>
-                        <p></p>
-                        <ul>
-                            <li>Levantamento de Requisitos Necessários</li>
-                            <li>Funcionalidades com Id, Entidade/Feature, Ator,<p> Descrição das Funcionalidades,<p> Nome da Classe, Mini Cenário,<p> Carga Horária,<p> Classificando as Histórias em possíveis funcionalidades, 
-                                <p>Product BackLog Inicial, <p>Refinando o Product Backlog em Épicos com suas prioridades,
-                                <p>Realizando a divisão dos Épicos em Sprints com seus planos de entregas   </li>
-                            <button onclick="window.open('https://docs.google.com/spreadsheets/d/1fSOD7uUDu0bgJARgzUMlfGNHCbcQBxNLztGT7nu3Omw/edit?usp=sharing', '_blank')">Abrir Product BackLog</button>
-
-                        </ul>
-            <img src="./images/redimensionado2.jpg" alt="IFRS">
-                        <h3>IFRS - Campus Porto Alegre</h3>
-                        <p>Bolsista de Iniciação Científica</p>
-                        <button onclick="window.open('https://qualoautor.wordpress.com/2021/08/27/resumo-do-projeto-2/', '_blank')">A falsa atribuição de autoria nas mídias digitais" (IFRS-Campus Porto Alegre)</button>
-
-                        <ul>            
+            <h2>Formação</h2>
+            <article>
+                <img src="./images/redimensionado2.jpg" alt="IFRS">
+                <h3>IFRS - Campus Restinga</h3>
+                <p>Bolsista de Iniciação Científica</p>
+                <ul>
+                    <li>Levantamento de Requisitos Necessários</li>
+                    <li>Funcionalidades com Id, Entidade/Feature</li> 
+                    <li>Ator, Descrição das Funcionalidades</li>
+                    <li>Nome da Classe, Mini Cenário, Carga Horária</li>
+                    <li>Classificando as Histórias em possíveis funcionalidades</li>
+                    <li>Product BackLog Inicial, Refinando o Product Backlog em Épicos com suas prioridades</li>
+                    <li> Realizando a divisão dos Épicos em Sprints com seus planos de entregas</li>
+                </ul>
+                <button onclick="window.open('https://docs.google.com/spreadsheets/d/1fSOD7uUDu0bgJARgzUMlfGNHCbcQBxNLztGT7nu3Omw/edit?usp=sharing', '_blank')">Abrir Product BackLog</button>
+            </article>
+            <article>
+                <img src="./images/redimensionado2.jpg" alt="IFRS">
+                <h3>IFRS - Campus Porto Alegre</h3>
+                <p>Bolsista de Iniciação Científica</p>
+                <button onclick="window.open('https://qualoautor.wordpress.com/2021/08/27/resumo-do-projeto-2/', '_blank')">A falsa atribuição de autoria nas mídias digitais" (IFRS-Campus Porto Alegre)</button>
+            </article>
         </section>
 
         <!-- Espaço para os casos de teste em PDF -->
         <section id="casos-de-teste">
             <h2>Casos de Teste</h2>
-            <h2>Utilizando a Ferramenta X|Decision para a <p>Tabela de Decisão pude encontrar os Casos de Teste para os Triângulos</h2>
+            <p>Utilizando a Ferramenta X|Decision para a Tabela de Decisão, pude encontrar os Casos de Teste para os Triângulos:</p>
             <ul>
                 <li>
-                    <a href="https://docs.google.com/document/d/1aPzadH8AVpezZYf7zjFVByx_qKMf6Q6NASce8pdd9tM/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 1</a><p>
+                    <a href="https://docs.google.com/document/d/1aPzadH8AVpezZYf7zjFVByx_qKMf6Q6NASce8pdd9tM/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 1</a>
                 </li>
                 <li>
-                    <a href="https://docs.google.com/document/d/1iyToqpBe4FWl9Pkr3zgEXOGZMDP1BCE-StlfLHBKLKA/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 2</a><p>
+                    <a href="https://docs.google.com/document/d/1iyToqpBe4FWl9Pkr3zgEXOGZMDP1BCE-StlfLHBKLKA/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 2</a>
                 </li>
                 <li>
-                    <a href="https://docs.google.com/document/d/1Fs4UvH9GCsE-9d_Ef6aucZMUNjS7VrVSZ2q2Rl0VkbY/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 3</a><p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="contato">
-            <div class="contato-container">
-                <h2>Contato</h2>
-                <article>
-                    <h3>Telefone: (51)992379901 (WhatsApp)</h3>
-                    <!-- Adicione aqui mais informações de contato, se necessário -->
-                </article>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-      <h1> Autor: Paulo Fernando Puppe Junior
-    </footer>
-</body>
-</html>
+                    <a href="https://docs.google.com/document/d/1Fs4UvH9GCsE-9d_Ef6aucZMUNjS7VrVSZ2q2Rl0VkbY/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 3</a>
