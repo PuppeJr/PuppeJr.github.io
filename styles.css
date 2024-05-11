@@ -12,7 +12,7 @@ body, html {
 }
 
 .parallax-bg {
-    background-image: url("./images/DeltaHalo.jpg"); /* substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-image: url("./images/DeltaHalo.jpg"); /* Substitua 'DeltaHalo.jpg' pelo caminho da sua imagem de fundo */
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,14 +46,25 @@ a {
     color: blue;
 }
 
-#experience article {
+#experiencias article {
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
-#experience article:last-of-type {
+#experiencias article:last-of-type {
     border-bottom: none;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+.fa-whatsapp {
+    color: #25d366; /* Cor verde do WhatsApp */
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin-right: 5px; /* Adicione margem para espaçamento */
+}
+
+.whatsapp-container {
+    display: flex; /* Habilita o layout flexbox */
+    align-items: flex-end; /* Alinha os itens verticalmente */
 }
