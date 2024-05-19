@@ -28,7 +28,6 @@ Projetos e Publicações
 Escrevo artigos no LinkedIn sobre desenvolvimento ágil de projetos e testes de software, onde exploro temas como estratégias de teste, métricas e automação. Além disso, participei de projetos de iniciação científica que envolvem levantamento de requisitos, desenvolvimento de ferramentas digitais e análise de lacunas no processo de testes de software.
 
 Contato
-Email: [Seu Email]
 Telefone/WhatsApp: (51) 99237-9901
-LinkedIn: [Seu Perfil no LinkedIn]
-GitHub: [Seu Perfil no GitHub]
+LinkedIn: https://www.linkedin.com/in/paulo-fernando-puppe-junior/
+GitHub: https://github.com/PuppeJr
