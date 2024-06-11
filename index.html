@@ -35,6 +35,7 @@
               </nav>
               
         </header>
+
         
 
     <main>
@@ -109,11 +110,13 @@
             <ul>
               <li>Google Dorking | Google | 2022 | 50 horas</li>
               <li>Introdução a Bash | TryHackMe | 2022 | 60 horas</li>
-              <li>...</li>
+              <li>Pesquisa Introdutória: Uma breve introdução às habilidades de pesquisa para pentesting | TryHackMe | 2023 | 40 horas</li>
+              <li>Segurança de Aplicativos da Web | TryHackMe | 2023 | 80 horas</li>
+              <li>Vulnerabilidades 101 | TryHackMe | 2023 | 60 horas</li>
             </ul>
             <h4>Teste de Software</h4>
             <ul>
-              <li>Introdução ao Teste de Software | USP | 2022 | 300 horas</li>
+              <li>Introdução ao Teste de Software | Universidade de São Paulo (USP) | 2022 | 300 horas</li>
             </ul>
           </section>
           
@@ -394,16 +397,56 @@
         
 
 
-        <!-- Espaço para os casos de teste em PDF -->
         <section id="casos-de-teste">
             <h2>Casos de Teste</h2>
             <p>Utilizando a Ferramenta X|Decision para a Tabela de Decisão, pude encontrar os Casos de Teste para os Triângulos:</p>
+            
+            <h3>Descrição Geral</h3>
+            <p>Nesta seção, apresento os casos de teste realizados para verificar a funcionalidade de identificação de triângulos, especificamente triângulos escaleno. Foram criados 20 casos de teste utilizando uma tabela de decisão para garantir uma cobertura completa.</p>
+            
+            <h3>Tabela de Decisão</h3>
+            <img src="./images/tabelaDeDecisao.png">
+
+            <li><a href="https://docs.google.com/document/d/1wWOaX49YUFR84dsdJwcfPH_VagMPGkUgcqNgDgK4rko/edit?usp=sharing" target="_blank">Definição de Triângulos (Tabela de Regras)</a></li>
+            
+        
+            <h3>Casos de Teste</h3>
+        
+            <div class="caso-de-teste">
+                <h4>Caso de Teste 001 – Teste de Triângulo Escaleno</h4>
+                <ul>
+                    <li><strong>ID:</strong> CT001</li>
+                    <li><strong>Ambiente:</strong> Windows 10</li>
+                    <li><strong>Ator:</strong> Usuário comum</li>
+                    <li><strong>Pré-condições:</strong> Inexistente</li>
+                    <li><strong>Descrição:</strong> Verificar se o sistema identifica corretamente um triângulo escaleno com lados 3, 4 e 5.</li>
+                    <li><strong>Passos Detalhados:</strong>
+                        <ol>
+                            <li>Abrir a aplicação</li>
+                            <li>Inserir valor 3 para o lado A</li>
+                            <li>Inserir valor 4 para o lado B</li>
+                            <li>Inserir valor 5 para o lado C</li>
+                        </ol>
+                    </li>
+                    <li><strong>Resultado Esperado:</strong> Sistema informa que o triângulo é escaleno</li>
+                    <li><strong>Resultado do Teste:</strong> Sistema informa que o triângulo é escaleno</li>
+                </ul>
+            </div>
+            
+            <!-- Repita a estrutura acima para os outros casos de teste -->
+        
+            <h3>Resumo de Resultados</h3>
+            <p>Aqui está um resumo dos resultados dos testes para os 20 casos de teste realizados:</p>
+            <!-- Insira um resumo dos resultados -->
+        
+            <p>Para mais detalhes, consulte a documentação completa dos casos de teste:</p>
             <ul>
-                <li>
-                    <a href="https://docs.google.com/document/d/1aPzadH8AVpezZYf7zjFVByx_qKMf6Q6NASce8pdd9tM/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 1</a>
-                </li>
-                <li>
-                    <a href="https://docs.google.com/document/d/1iyToqpBe4FWl9Pkr3zgEXOGZMDP1BCE-StlfLHBKLKA/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 2</a>
-                </li>
-                <li>
-                    <a href="https://docs.google.com/document/d/1Fs4UvH9GCsE-9d_Ef6aucZMUNjS7VrVSZ2q2Rl0VkbY/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 3</a>
+                <li><a href="https://docs.google.com/document/d/1aPzadH8AVpezZYf7zjFVByx_qKMf6Q6NASce8pdd9tM/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 1</a></li>
+                <li><a href="https://docs.google.com/document/d/1iyToqpBe4FWl9Pkr3zgEXOGZMDP1BCE-StlfLHBKLKA/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 2</a></li>
+                <li><a href="https://docs.google.com/document/d/1Fs4UvH9GCsE-9d_Ef6aucZMUNjS7VrVSZ2q2Rl0VkbY/edit?usp=sharing" target="_blank">Casos de Teste Caixa Preta Triângulo - 3</a></li>
+            </ul>
+        </section>
+        <!-- No final do seu HTML, após todas as seções -->
+<footer>
+    <a href="#header" class="btn-voltar">Voltar ao Início <i class="fas fa-arrow-up"></i></a>
+</footer>
