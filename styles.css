@@ -74,10 +74,10 @@ a {
     position: fixed; /* Define a posição fixa */
     bottom: 20px; /* Distância do fundo */
     right: 20px; /* Distância da direita */
-    background-color: #007bff; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
+    background-color: #e1e6ec; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
     padding: 10px 20px; /* Espaçamento interno */
-    border-radius: 5px; /* Borda arredondada */
+    border-radius: 15px; /* Borda arredondada */
     text-decoration: none; /* Remove o sublinhado do link */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
     z-index: 999; /* Z-index alto para garantir que fique acima de outros elementos */
