@@ -99,3 +99,26 @@ h1 {
     text-align: center;
     color: #333;
 }
+
+.whatsapp-container a {
+    color: #25d366; /* Cor verde típica do WhatsApp */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.whatsapp-container a:hover {
+    text-decoration: underline;
+    color: #128c7e; /* Cor mais escura para o efeito hover */
+}
+
+.whatsapp-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.whatsapp-container .fa-whatsapp {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
