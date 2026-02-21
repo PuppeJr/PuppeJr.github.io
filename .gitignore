@@ -1,0 +1,5 @@
+# Arquivos temporários
+*.tmp
+*.log
+.DS_Store
+thumbs.db
