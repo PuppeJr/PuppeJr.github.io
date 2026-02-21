@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 /* Reset básico para garantir que não haja margens ou paddings indesejados */
 body, html {
     margin: 0;
@@ -141,7 +141,7 @@ img {
     margin: 20px auto; /* Centraliza as imagens */
     border-radius: 5px; /* Adiciona um pequeno arredondamento */
 }
-=======
+
 /* style.css */
 /* Reset básico */
 body, html {
@@ -212,4 +212,3 @@ img {
     display: block; margin: 20px auto;
     border-radius: 5px;
 }
->>>>>>> a71d91de0b34b744d07b5de99eea43cd33c708ef
