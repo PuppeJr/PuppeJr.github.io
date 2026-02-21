@@ -1,3 +1,147 @@
+<<<<<<< HEAD
+/* Reset básico para garantir que não haja margens ou paddings indesejados */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif; /* Adicione uma fonte padrão para melhor legibilidade */
+    background-color: #f4f4f4; /* Cor de fundo geral para evitar contrastes bruscos */
+}
+
+/* Contêiner principal para o efeito parallax */
+.parallax {
+    height: 100vh; /* Garante que a seção parallax ocupe a altura total da tela */
+    overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+    overflow-y: auto; /* Adiciona rolagem vertical */
+    position: relative; /* Define o contexto para posicionamento absoluto dos filhos */
+    perspective: 300px; /* Adiciona uma perspectiva para o efeito parallax */
+}
+
+/* Fundo parallax */
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/static/images/novo1.jpeg"); /* Caminho da imagem */
+    background-size: cover;
+    background-position: center;
+    transform-origin: center;
+    transform: translateZ(-1px) scale(2); /* Ajusta a profundidade e escala da imagem */
+    z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    position: relative; /* Importante para o z-index funcionar */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo levemente transparente para o conteúdo */
+    padding: 50px 20px;
+    z-index: 1; /* Garante que o conteúdo fique na frente da imagem */
+}
+
+/* Estilos para cabeçalhos e seções */
+header, section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center; /* Centraliza os títulos */
+}
+
+/* Estilos para listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para links */
+a {
+    color: #007bff; /* Cor azul padrão para links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilos específicos para a seção de experiências */
+#experiencias article {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#experiencias article:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* Estilos para o ícone do WhatsApp */
+.fa-whatsapp {
+    color: #25d366; /* Cor verde do WhatsApp */
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* Estilos para o container do WhatsApp */
+.whatsapp-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o link do WhatsApp */
+    margin-top: 10px;
+}
+
+.whatsapp-container a {
+    color: #25d366;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.whatsapp-container a:hover {
+    text-decoration: underline;
+    color: #128c7e;
+}
+
+.whatsapp-container .fa-whatsapp {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+/* Estilos para o botão "Voltar ao Início" */
+.btn-voltar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e1e6ec;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.btn-voltar i {
+    margin-right: 5px;
+}
+
+/* Estilos para imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centraliza as imagens */
+    border-radius: 5px; /* Adiciona um pequeno arredondamento */
+}
+=======
 /* style.css */
 /* Reset básico */
 body, html {
@@ -68,3 +212,4 @@ img {
     display: block; margin: 20px auto;
     border-radius: 5px;
 }
+>>>>>>> a71d91de0b34b744d07b5de99eea43cd33c708ef
