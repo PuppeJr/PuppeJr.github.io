@@ -1,0 +1,148 @@
+PAULO FERNANDO PUPPE JUNIOR
+Quality Assurance | Automação de Testes | Testes Manuais
+Porto Alegre, RS | (51) 99237-9901 | puppejunior@gmail.com
+github.com/PuppeJr | linkedin.com/in/paulo-fernando-puppe-junior
+
+---
+
+RESUMO PROFISSIONAL
+
+Analista de QA com experiência em testes manuais, testes automatizados, validação de APIs REST e metodologias ágeis. Proficiente em JavaScript, Python e Java para automação. Experiência com Selenium WebDriver, Postman, Jira e Git. Executou testes funcionais, de regressão e exploratórios em aplicações web. Dedicado a evoluir continuamente em automação de testes web, Playwright e Cypress.
+
+---
+
+EXPERIÊNCIA PROFISSIONAL
+
+TRAINEE QUALITY ASSURANCE
+Compass.uol | Porto Alegre, RS | Outubro 2022 - Janeiro 2023
+
+• Executou testes funcionais, não funcionais e exploratórios em aplicações web
+• Criou e manteve casos de teste (test cases) com base em requisitos do produto
+• Realizou testes de regressão para validar correções e novas funcionalidades
+• Identificou, documentou e acompanhou bugs usando Jira Software
+• Validou integrações entre serviços colaborando com times de desenvolvimento
+• Planejou e elaborou cenários de teste cobrindo funcionalidades críticas
+• Contribuiu com melhorias nos processos de QA aumentando qualidade das entregas
+
+ANALISTA QA - PROJETOS E PORTFÓLIO PRÁTICO
+Desenvolvimento Acadêmico | Remoto | 2023 - 2024
+
+• Desenvolveu portfólio completo de testes manuais com planos, casos de teste e relatórios
+• Criou scripts de testes automatizados com Selenium WebDriver em Java
+• Executou testes de APIs REST com Postman validando requisições HTTP
+• Realizou testes smoke, regressão, funcionais e exploratórios
+• Documentou evidências de teste, screenshots e logs detalhados
+• Implementou testes unitários com JUnit
+• Mapeou cenários de exceção e regras de negócio
+
+BOLSISTA INICIAÇÃO CIENTÍFICA
+IFRS - Campus Restinga | Porto Alegre, RS | Março 2022 - Outubro 2022
+
+• Levantou requisitos e construiu backlog em metodologia ágil e Scrum
+• Desenvolveu ferramentas digitais com foco em validação e qualidade
+• Documentou especificações técnicas e critérios de aceitação
+• Participou de sprints, refinement e planejamento de iterações
+
+BOLSISTA INICIAÇÃO CIENTÍFICA
+IFRS - Campus Porto Alegre | Porto Alegre, RS | Agosto 2021 - Fevereiro 2022
+
+• Realizou testes exploratórios e de usabilidade em aplicações web
+• Validou funcionalidades e integrou feedback em ciclos de desenvolvimento
+• Documentou relatórios de qualidade e confiabilidade de software
+
+---
+
+COMPETÊNCIAS TÉCNICAS - KEYWORDS PARA ATS
+
+AUTOMAÇÃO DE TESTES: Selenium WebDriver | Cypress | Playwright | JUnit | Testes Automatizados | Scripts de Teste | Automação Web | Testes Unitários
+
+TESTES MANUAL: Testes Funcionais | Testes de Regressão | Testes Exploratórios | Smoke Tests | Casos de Teste | Test Cases | Cenários de Teste | Plano de Testes
+
+VALIDAÇÃO DE API: APIs REST | Postman | Insomnia | Validação HTTP | Testes de Integração | Requisições GET POST PUT DELETE | JSON | XML
+
+LINGUAGENS DE PROGRAMAÇÃO: JavaScript | TypeScript | Python | Java | Lógica de Programação | XPath | CSS Selectors
+
+TECNOLOGIAS WEB: HTTP | DevTools | Chrome DevTools | Seletores CSS | XPath | HTML5 | DOM | Análise de Rede | Requisições HTTP | Cookies | Headers
+
+CONTROLE DE VERSÃO: Git | GitHub | GitLab | Clone | Commit | Push | Pull | Branches | Pull Requests | Merge
+
+FERRAMENTAS DE QA: Jira Software | Azure DevOps | Postman | Insomnia | Visual Studio Code | Chrome DevTools
+
+METODOLOGIAS ÁGEIS: Scrum | Agile | Sprints | Backlog Refinement | Cerimônias Ágeis | Incremental | Iterativo
+
+BANCOS DE DADOS: SQL | MySQL | Consultas SQL | Validação de Dados
+
+---
+
+FORMAÇÃO ACADÊMICA
+
+TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+IFRS - Campus Restinga | Porto Alegre, RS | Março 2022 - Outubro 2027 (Cursando)
+
+TÉCNICO EM GESTÃO DESPORTIVA E DO LAZER
+IFRS - Campus Restinga | Porto Alegre, RS | Março 2016 - Julho 2018
+
+---
+
+CERTIFICAÇÕES E TREINAMENTOS
+
+• Microsoft SC-900: Segurança em Nuvem (2024)
+• Junior Security Analyst Intro - TryHackMe (2024)
+• Vulnerabilidades 101 - TryHackMe (2023)
+• AWS Partner: Sales Accreditation (2022)
+• Google Dorking Certification (2022)
+• Segurança de Aplicativos da Web - TryHackMe
+• Teste de Software - USP
+• Java: Resolvendo Desafios de Código - DIO
+• MySQL: Primeiras Tabelas
+• HTML5: Desenvolvimento Web
+• Introdução a Bash - TryHackMe
+• Python Fundamentals
+
+---
+
+PROJETOS PORTFOLIO QA
+
+PORTFÓLIO TESTES MANUAIS | github.com/PuppeJr/QA-Testes-Manuais
+Plano de Testes | Casos de Teste Detalhados | Evidências de Teste | Relatórios de Bugs | Cenários de Teste | Documentação Profissional
+
+DESAFIO QA | github.com/PuppeJr/desafio-qa-que-programa
+Análise de Requisitos | Mapeamento de Cenários | Casos de Teste | Validação de Regras de Negócio | Documentação Técnica
+
+SISTEMA MERCADO TESTES | github.com/PuppeJr/MercadoTesteSoftware
+Testes CRUD | Testes de Autenticação | Testes de Autorização | Testes Funcionais | Documentação de Test Cases
+
+---
+
+HABILIDADES COMPLEMENTARES
+
+SOFT SKILLS: Comunicação Clara | Atenção aos Detalhes | Análise Crítica | Proatividade | Aprendizado Contínuo | Trabalho em Equipe | Organização | Identificação de Cenários de Exceção | Documentação de Bugs
+
+IDIOMAS: Português (Nativo) | Inglês Técnico (Leitura de Documentação)
+
+---
+
+DIFERENCIAIS ALINHADOS COM A VAGA
+
+✓ Experiência com Selenium WebDriver para automação web
+✓ Conhecimento em Playwright para automação moderna
+✓ Familiaridade com Cypress
+✓ Experiência com Postman e validação de APIs REST
+✓ Conhecimento de Git, GitHub e controle de versão
+✓ Noções de SQL para validação de dados
+✓ Experiência com metodologias Ágeis e Scrum
+✓ Proficiência em JavaScript, Python e Java
+✓ Conhecimento de DevTools e análise de requisições HTTP
+✓ Portfólio público no GitHub demonstrando habilidades de QA
+✓ Testes de APIs REST estruturados
+✓ Documentação profissional de bugs e casos de teste
+
+---
+
+CONTATO
+
+Telefone/WhatsApp: (51) 99237-9901
+Email: puppejunior@gmail.com
+GitHub: github.com/PuppeJr
+LinkedIn: linkedin.com/in/paulo-fernando-puppe-junior
+Portfólio: puppejr.github.io
