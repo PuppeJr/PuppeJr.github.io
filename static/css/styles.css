@@ -1,144 +1,221 @@
-/* Reset básico */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: sans-serif;
-    background-color: #f4f4f4;
-}
-
-/* Contêiner principal para o efeito parallax */
-.parallax {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
+/* ========================================
+   PROJETO DESTAQUE (QA-Testes-Manuais)
+   ======================================== */
+.project-card.featured {
+    border: 2px solid var(--color-primary);
+    background: linear-gradient(135deg, var(--color-bg) 0%, var(--color-bg-alt) 100%);
     position: relative;
-    perspective: 1px; /* precisa ser bem pequeno para o efeito aparecer */
+    overflow: hidden;
 }
 
-/* Fundo parallax */
-.parallax-bg {
+.project-card.featured::before {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 4px;
     height: 100%;
-    background-image: url("/static/images/novo1.jpeg");
-    background-size: cover;
-    background-position: center;
-    transform-origin: center;
-    transform: translateZ(-1px) scale(2); /* escala 2 combina com perspective:1px e translateZ(-1px) */
-    z-index: -1;
+    background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
 }
 
-/* Estilos para o conteúdo principal */
-main {
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 50px 20px;
-    z-index: 1;
+.featured-badge {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: var(--shadow-sm);
 }
 
-/* Cabeçalhos e seções */
-header, section {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Fluxo de Rastreabilidade */
+.traceability-flow {
+    background-color: var(--color-bg-alt);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius-md);
+    margin: var(--spacing-md) 0;
+    border: 1px solid var(--color-border);
 }
 
-h1, h2, h3 {
-    color: #333;
-    text-align: center;
+.traceability-title,
+.structure-title,
+.best-practices-title {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-sm);
 }
 
-/* Listas */
-ul {
-    list-style: none;
-    padding: 0;
-}
-ol {
-    margin: 5px 0 15px 20px;
-}
-
-/* Links */
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-/* Experiência */
-#experiencia article {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
-#experiencia article:last-of-type {
-    border-bottom: none;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-/* WhatsApp */
-.fa-whatsapp {
-    color: #25d366;
-    font-size: 20px;
-    margin-right: 5px;
-}
-.whatsapp-container {
+.flow-diagram {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-md);
+    background-color: var(--color-bg);
+    border-radius: var(--border-radius-sm);
+    margin-bottom: var(--spacing-sm);
 }
-.whatsapp-container a {
-    color: #25d366;
-    text-decoration: none;
-    font-size: 18px;
+
+.flow-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    background-color: var(--color-bg-alt);
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--color-border);
+    min-width: 80px;
+    transition: all 0.2s ease;
+}
+
+.flow-step:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-primary);
+}
+
+.flow-step.bug-step {
+    background-color: #fef2f2;
+    border-color: #fca5a5;
+}
+
+.flow-icon {
+    font-size: 1.25rem;
+}
+
+.flow-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-text);
+    text-align: center;
+    line-height: 1.2;
+}
+
+.flow-arrow {
+    font-size: 1.25rem;
+    color: var(--color-primary);
     font-weight: bold;
 }
-.whatsapp-container a:hover {
-    text-decoration: underline;
-    color: #128c7e;
-}
-.whatsapp-container .fa-whatsapp {
-    margin-right: 8px;
-    font-size: 24px;
+
+.traceability-note {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    text-align: center;
+    margin-top: var(--spacing-sm);
+    padding-top: var(--spacing-sm);
+    border-top: 1px dashed var(--color-border);
 }
 
-/* Botão "Voltar ao Topo" */
-.btn-voltar {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #e1e6ec;
-    color: #000000;
-    padding: 10px 20px;
-    border-radius: 15px;
+/* Estrutura de Artefatos */
+.project-structure {
+    margin: var(--spacing-md) 0;
+}
+
+.structure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: var(--spacing-sm);
+}
+
+.structure-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    background-color: var(--color-bg-alt);
+    border-radius: var(--border-radius-sm);
+    font-size: 0.8125rem;
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    transition: all 0.2s ease;
+}
+
+.structure-item:hover {
+    border-color: var(--color-primary);
+    background-color: var(--color-bg);
+}
+
+.structure-icon {
+    font-size: 1rem;
+}
+
+/* Boas Práticas */
+.project-best-practices {
+    margin: var(--spacing-md) 0;
+    padding: var(--spacing-md);
+    background-color: var(--color-bg-alt);
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--color-border);
+}
+
+.best-practices-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-xs);
+}
+
+.best-practices-list li {
+    position: relative;
+    padding-left: var(--spacing-md);
+    font-size: 0.875rem;
+    color: var(--color-text);
+}
+
+.best-practices-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+    font-weight: bold;
+}
+
+/* Links diferenciados */
+.project-link.primary {
+    background-color: var(--color-primary);
+    color: white !important;
+    padding: 6px 12px;
+    border-radius: var(--border-radius-sm);
     text-decoration: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 999;
-}
-.btn-voltar i {
-    margin-right: 5px;
+    transition: all 0.2s ease;
 }
 
-/* Imagens */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 5px;
+.project-link.primary:hover {
+    background-color: var(--color-primary-dark);
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
 }
 
-/* Responsivo */
-@media (max-width: 600px) {
-    main {
-        padding: 30px 15px;
+/* Responsividade do fluxo */
+@media (max-width: 640px) {
+    .flow-diagram {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .flow-step {
+        flex-direction: row;
+        justify-content: flex-start;
+        min-width: auto;
+    }
+    
+    .flow-arrow {
+        transform: rotate(90deg);
+        text-align: center;
+        padding: var(--spacing-xs) 0;
+    }
+    
+    .best-practices-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .structure-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
