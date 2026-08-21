@@ -1,171 +1,621 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfólio – Paulo Fernando Puppe Junior</title>
-<link rel="stylesheet" href="static/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Puppe Jr | Quality Assurance Analyst | Porto Alegre, RS</title>
+    <meta name="description" content="Profissional de QA com experiência em testes manuais e automatizados, Selenium, JUnit, Jira e segurança da informação. Graduando em ADS no IFRS.">
+    <meta name="keywords" content="Quality Assurance, QA, Testes de Software, Selenium, JUnit, Jira, Porto Alegre, IFRS, ADS, Java, JavaScript, HTML5, CSS3">
+    <meta name="author" content="Puppe Jr">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Puppe Jr | Quality Assurance Analyst">
+    <meta property="og:description" content="QA Analyst com experiência em testes funcionais, automação e segurança da informação.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://puppejr.github.io/">
+    <meta property="og:image" content="https://puppejr.github.io/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="parallax">
-<div class="parallax-bg"></div>
-<main>
+    <!-- Header / Navigation -->
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Menu principal">
+            <div class="container nav-container">
+                <a href="#inicio" class="logo" aria-label="Puppe Jr - QA Analyst">Puppe Jr<span class="logo-subtitle">QA Analyst</span></a>
+                <ul class="nav-list">
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+                    <li><a href="#projetos-qa" class="nav-link">Projetos QA</a></li>
+                    <li><a href="#certificacoes" class="nav-link">Certificações</a></li>
+                    <li><a href="#contato" class="nav-link btn-contato">Contato</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Abrir menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
 
-<!-- Contato -->
-<header id="contato">
-<h1>Contato</h1>
-<div class="whatsapp-container">
-<i class="fa fa-whatsapp"></i>
-<a href="https://wa.me/5551992379901" target="_blank">+55 51 99237-9901</a>
-</div>
-<p><strong>Email:</strong> <a href="mailto:puppejunior@gmail.com">puppejunior@gmail.com</a></p>
-<p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/paulo-fernando-puppe-junior" target="_blank">/in/paulo-fernando-puppe-junior</a></p>
-<p><strong>GitHub:</strong> <a href="https://github.com/PuppeJr" target="_blank">github.com/PuppeJr</a></p>
-<p><strong>Portfólio:</strong> <a href="https://puppejr.github.io/" target="_blank">puppejr.github.io</a></p>
-</header>
+    <main role="main">
+        <!-- Hero Section -->
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title">
+                        Quality Assurance Analyst
+                    </h1>
+                    <p class="hero-subtitle">
+                        Especialista em testes manuais e automatizados, com foco em qualidade de software e segurança da informação.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projetos-qa" class="btn btn-primary">Ver Projetos QA</a>
+                        <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+                    </div>
+                    <div class="hero-techs">
+                        <span class="tech-badge">Selenium</span>
+                        <span class="tech-badge">JUnit</span>
+                        <span class="tech-badge">Jira</span>
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- Resumo -->
-<section id="resumo">
-<h2>Resumo</h2>
-<p>Profissional de Quality Assurance com experiência em testes de software (manuais e automatizados), planejamento de testes e uso de Jira Software. Sólidos conhecimentos em Java, HTML5, CSS3, JavaScript e segurança da informação. Graduando em Análise e Desenvolvimento de Sistemas pelo IFRS (mar/2020–atual). Trainee QA na Compass.uol (out/22–jan/23). Participação em iniciação científica e projetos voluntários, como Grupo Escoteiro Dom Bosco.</p>
-</section>
+        <!-- Sobre -->
+        <section id="sobre" class="section" aria-labelledby="sobre-title">
+            <div class="container">
+                <h2 id="sobre-title" class="section-title">Sobre</h2>
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p class="lead">
+                            Profissional de <strong>Quality Assurance</strong> com experiência em testes de software (manuais e automatizados), planejamento de testes e uso de <strong>Jira Software</strong>.
+                        </p>
+                        <p>
+                            Sólidos conhecimentos em <strong>Java, HTML5, CSS3, JavaScript</strong> e <strong>segurança da informação</strong>. Graduando em <strong>Análise e Desenvolvimento de Sistemas</strong> pelo IFRS.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-card">
+                                <span class="highlight-icon">🎯</span>
+                                <h3>Foco em QA</h3>
+                                <p>Testes funcionais, regressão e integração com metodologias ágeis.</p>
+                            </div>
+                            <div class="highlight-card">
+                                <span class="highlight-icon">🔒</span>
+                                <h3>Segurança</h3>
+                                <p>Certificações em segurança web e análise de vulnerabilidades.</p>
+                            </div>
+                            <div class="highlight-card">
+                                <span class="highlight-icon">📚</span>
+                                <h3>Educação</h3>
+                                <p>Graduando em ADS e técnico em Gestão Desportiva.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- Educação e Cursos -->
-<section id="educacao">
-<h2>Educação & Cursos</h2>
-<article>
-<h3>IFRS – Campus Restinga</h3>
-<p><em>Tecnólogo em Análise e Desenvolvimento de Sistemas</em> (mar/2022–out/2027)</p>
-</article>
-<article>
-<h3>IFRS – Campus Restinga</h3>
-<p><em>Técnico em Gestão Desportiva e do Lazer</em> (mar/2016–jul/2018)</p>
-</article>
-<h3>Cursos & Certificações</h3>
-<ul>
-<li>MySQL – Primeiras Tabelas</li>
-<li>Java – Resolvendo Desafios de Código (DIO)</li>
-<li>HTML – Introdução ao desenvolvimento de páginas web</li>
-<li>DNS – Explorando o Poder do Sistema de Nomes de Domínio</li>
-<li>Segurança de Aplicativos da Web (TryHackMe)</li>
-<li>Introdução a Bash (TryHackMe)</li>
-<li>Curso Pleno em Recondicionamento de Computadores (SENAI)</li>
-<li>Certificação AWS Partner: Sales Accreditation / SAP on AWS</li>
-<!-- adicione demais -->
-</ul>
-</section>
+        <!-- Experiência Profissional -->
+        <section id="experiencia" class="section section-alt" aria-labelledby="experiencia-title">
+            <div class="container">
+                <h2 id="experiencia-title" class="section-title">Experiência Profissional</h2>
+                <div class="timeline">
+                    <!-- Compass.uol -->
+                    <article class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Trainee Quality Assurance</h3>
+                                <span class="timeline-company">Compass.uol</span>
+                            </div>
+                            <p class="timeline-period">Out/2022 – Jan/2023 | Porto Alegre/RS</p>
+                            <ul class="timeline-list">
+                                <li>Testes funcionais e não funcionais em site de varejo</li>
+                                <li>Planejamento de cenários e documentação conforme requisitos</li>
+                                <li>Uso de <strong>Jira Software</strong> para rastreamento de defeitos</li>
+                                <li>Implementação de melhorias de busca que aumentaram conversão</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">QA</span>
+                                <span class="tag">Jira</span>
+                                <span class="tag">Testes Funcionais</span>
+                            </div>
+                        </div>
+                    </article>
 
-<!-- Experiência -->
-<section id="experiencia">
-<h2>Experiência Profissional</h2>
-<article>
-<h3>Compass.uol – Trainee Quality Assurance</h3>
-<p><em>Out/2022 – Jan/2023 | Porto Alegre/RS</em></p>
-<ul>
-<li>Testes funcionais e não funcionais em site de varejo</li>
-<li>Planejamento de cenários e documentação conforme requisitos</li>
-<li>Uso de Jira Software para rastreamento de defeitos</li>
-<li>Implementação de melhorias de busca que aumentaram conversão</li>
-</ul>
-</article>
-<article>
-<h3>IFRS – Bolsista de Iniciação Científica</h3>
-<p><em>Mar/2022 – Out/2022 | Campus Restinga</em></p>
-<ul>
-<li>Levantamento de requisitos e construção de backlog em metodologias ágeis</li>
-<li>Desenvolvimento de ferramentas digitais para verificação de autoria de textos</li>
-</ul>
-</article>
-<article>
-<h3>IFRS – Bolsista de Iniciação Científica</h3>
-<p><em>Ago/2021 – Fev/2022 | Campus Porto Alegre</em></p>
-<ul>
-<li>Criação de site em WordPress para identificação de falsas autorias</li>
-<li>Pesquisa de textos literários e elaboração de relatório de confiabilidade</li>
-</ul>
-</article>
-<article>
-<h3>Puppe Digitalização de Fotos – CEO</h3>
-<p><em>Jun/2018 – Jul/2021 | Porto Alegre/RS</em></p>
-<ul>
-<li>Digitalização e organização de documentos fotográficos</li>
-<li>Gestão de atendimento, marketing local e suporte técnico</li>
-</ul>
-</article>
-</section>
+                    <!-- IFRS - Bolsista 1 -->
+                    <article class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Bolsista de Iniciação Científica</h3>
+                                <span class="timeline-company">IFRS – Campus Restinga</span>
+                            </div>
+                            <p class="timeline-period">Mar/2022 – Out/2022</p>
+                            <ul class="timeline-list">
+                                <li>Levantamento de requisitos e construção de backlog em metodologias ágeis</li>
+                                <li>Desenvolvimento de ferramentas digitais para verificação de autoria de textos</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">Agile</span>
+                                <span class="tag">Backlog</span>
+                                <span class="tag">Pesquisa</span>
+                            </div>
+                        </div>
+                    </article>
 
-<!-- Certificações -->
-<section id="certificacoes">
-<h2>Certificações</h2>
-<ul>
-<li>Google Dorking – Google (2022)</li>
-<li>Vulnerabilidades 101 – TryHackMe (2023)</li>
-<li>Junior Security Analyst Intro – TryHackMe (2024)</li>
-<li>Microsoft SC-900 – Segurança na Nuvem (2024)</li>
-<li>AWS Partner: Sales Accreditation / SAP on AWS (10/2022)</li>
-<!-- demais podem ser listadas -->
-</ul>
-</section>
+                    <!-- IFRS - Bolsista 2 -->
+                    <article class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Bolsista de Iniciação Científica</h3>
+                                <span class="timeline-company">IFRS – Campus Porto Alegre</span>
+                            </div>
+                            <p class="timeline-period">Ago/2021 – Fev/2022</p>
+                            <ul class="timeline-list">
+                                <li>Criação de site em WordPress para identificação de falsas autorias</li>
+                                <li>Pesquisa de textos literários e elaboração de relatório de confiabilidade</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">Pesquisa</span>
+                                <span class="tag">Web</span>
+                            </div>
+                        </div>
+                    </article>
 
-<!-- Competências -->
-<section id="competencias">
-<h2>Competências & Habilidades</h2>
-<ul>
-<li>QA Manual e Automação (Selenium WebDriver, JUnit)</li>
-<li>Testes Funcionais, de Regressão e Integração</li>
-<li>Planejamento de Testes, Writing Test Cases</li>
-<li>Metodologias: Agile, Scrum</li>
-<li>Ferramentas: Jira Software, X|Decision, Postman</li>
-<li>Linguagens: Java, JavaScript, HTML5, CSS3, Flutter</li>
-<li>Sistemas Operacionais: Linux, Windows</li>
-<li>Git, GitHub, Visual Studio Code</li>
-</ul>
-</section>
+                    <!-- Puppe Digitalização -->
+                    <article class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">CEO</h3>
+                                <span class="timeline-company">Puppe Digitalização de Fotos</span>
+                            </div>
+                            <p class="timeline-period">Jun/2018 – Jul/2021 | Porto Alegre/RS</p>
+                            <ul class="timeline-list">
+                                <li>Digitalização e organização de documentos fotográficos</li>
+                                <li>Gestão de atendimento, marketing local e suporte técnico</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">Gestão</span>
+                                <span class="tag">Empreendedorismo</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-<!-- Projetos -->
-<section id="projetos">
-<h2>Projetos</h2>
-<article>
-<h3>QA – Testes Manuais</h3>
-<p><em>Portfólio de documentação de testes de software</em></p>
-<p>Repositório com exemplos de documentação de testes manuais desenvolvidos para fins de estudo e demonstração de competências em Quality Assurance, cobrindo todo o ciclo de teste.</p>
-<ul>
-<li>Planejamento de Testes e Casos de Teste</li>
-<li>Execução de testes, massa de dados e matrizes de rastreabilidade</li>
-<li>Evidências de execução e Relatórios de Bugs</li>
-<li>Templates reutilizáveis para documentação de QA</li>
-</ul>
-<p><a href="https://github.com/PuppeJr/QA-Testes-Manuais" target="_blank">Ver repositório no GitHub</a></p>
-</article>
-</section>
+        <!-- Projetos QA -->
+        <section id="projetos-qa" class="section" aria-labelledby="projetos-qa-title">
+            <div class="container">
+                <h2 id="projetos-qa-title" class="section-title">Projetos de QA</h2>
+                <p class="section-intro">
+                    Confira meus principais projetos em Quality Assurance com documentação profissional e rastreabilidade completa.
+                </p>
 
-<!-- Voluntariado -->
-<section id="voluntariado">
-<h2>Voluntariado</h2>
-<article>
-<h3>Grupo Escoteiro Dom Bosco/RS 191-RS</h3>
-<p><em>1988 – 1997</em></p>
-<ul>
-<li>Liderança e trabalho em equipe em acampamentos e projetos comunitários</li>
-<li>Serviço comunitário: plantio de árvores, limpeza de áreas públicas</li>
-<li>Programas de primeiros socorros e sobrevivência na natureza</li>
-</ul>
-</article>
-<article>
-<h3>Projeto de Portfólio para Colega de Curso</h3>
-<p><em>Ano 2020</em></p>
-<ul>
-<li>Design gráfico de layout profissional</li>
-<li>Estruturação clara de conteúdo para possíveis empregadores</li>
-<li>Feedback iterativo e revisões colaborativas</li>
-</ul>
-</article>
-</section>
+                <!-- PROJETO DESTAQUE: QA-Testes-Manuais -->
+                <article class="project-card featured" id="projeto-qa-testes-manuais">
+                    <div class="project-header">
+                        <span class="project-badge featured-badge">🏆 Projeto Destaque</span>
+                    </div>
+                    <h3 class="project-title">QA-Testes-Manuais</h3>
+                    <p class="project-description">
+                        Portfólio profissional de Quality Assurance com documentação completa de testes manuais, 
+                        organizada conforme boas práticas de Engenharia de Software. Inclui fluxo completo de 
+                        rastreabilidade entre requisitos, planos, casos, execuções e bugs.
+                    </p>
+                    
+                    <!-- Fluxo de Rastreabilidade -->
+                    <div class="traceability-flow">
+                        <h4 class="traceability-title">🔗 Fluxo de Rastreabilidade</h4>
+                        <div class="flow-diagram">
+                            <div class="flow-step">
+                                <span class="flow-icon">📋</span>
+                                <span class="flow-label">Requisito (RF)</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-icon">📝</span>
+                                <span class="flow-label">Plano de Testes (PT)</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-icon">✅</span>
+                                <span class="flow-label">Caso de Teste (CT)</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-icon">🧪</span>
+                                <span class="flow-label">Massa de Testes (MT)</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-icon">▶️</span>
+                                <span class="flow-label">Execução (ET)</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-icon">📸</span>
+                                <span class="flow-label">Evidência (EV)</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step bug-step">
+                                <span class="flow-icon">🐛</span>
+                                <span class="flow-label">Bug (BUG)</span>
+                            </div>
+                        </div>
+                        <p class="traceability-note">
+                            <strong>Matriz de Rastreabilidade:</strong> Conexão bidirecional entre todos os artefatos para garantir cobertura completa de testes.
+                        </p>
+                    </div>
+                    
+                    <!-- Estrutura do Projeto -->
+                    <div class="project-structure">
+                        <h4 class="structure-title">📁 Estrutura de Artefatos</h4>
+                        <div class="structure-grid">
+                            <div class="structure-item">
+                                <span class="structure-icon">📂</span>
+                                <span>Planejamento</span>
+                            </div>
+                            <div class="structure-item">
+                                <span class="structure-icon">📂</span>
+                                <span>Documentação</span>
+                            </div>
+                            <div class="structure-item">
+                                <span class="structure-icon">📂</span>
+                                <span>Casos de Teste</span>
+                            </div>
+                            <div class="structure-item">
+                                <span class="structure-icon">📂</span>
+                                <span>Massa de Testes</span>
+                            </div>
+                            <div class="structure-item">
+                                <span class="structure-icon">📂</span>
+                                <span>Execução</span>
+                            </div>
+                            <div class="structure-item">
+                                <span class="structure-icon">📂</span>
+                                <span>Evidências</span>
+                            </div>
+                            <div class="structure-item">
+                                <span class="structure-icon">📂</span>
+                                <span>Relatórios de Bugs</span>
+                            </div>
+                            <div class="structure-item">
+                                <span class="structure-icon">📂</span>
+                                <span>Matrizes</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Boas Práticas -->
+                    <div class="project-best-practices">
+                        <h4 class="best-practices-title">✨ Boas Práticas Aplicadas</h4>
+                        <ul class="best-practices-list">
+                            <li>Rastreabilidade entre documentos</li>
+                            <li>Versionamento com Git</li>
+                            <li>Padronização Markdown</li>
+                            <li>Compatibilidade com markdownlint</li>
+                            <li>Organização por artefatos</li>
+                            <li>Templates reutilizáveis</li>
+                            <li>Identificação por IDs únicos</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Tecnologias -->
+                    <div class="project-techs">
+                        <span class="tech-badge-small">Git</span>
+                        <span class="tech-badge-small">GitHub</span>
+                        <span class="tech-badge-small">Markdown</span>
+                        <span class="tech-badge-small">VS Code</span>
+                        <span class="tech-badge-small">Draw.io</span>
+                        <span class="tech-badge-small">SQL</span>
+                        <span class="tech-badge-small">GitHub Projects</span>
+                    </div>
+                    
+                    <!-- Links -->
+                    <div class="project-links">
+                        <a href="https://github.com/PuppeJr/QA-Testes-Manuais" class="project-link primary" target="_blank" rel="noopener noreferrer">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            Ver Repositório
+                        </a>
+                        <a href="https://github.com/PuppeJr/QA-Testes-Manuais/blob/main/README.md" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                            Ver Documentação
+                        </a>
+                    </div>
+                </article>
 
-<!-- Botão Voltar -->
-<a href="#contato" class="btn-voltar"><i class="fa fa-arrow-up"></i>Topo</a>
+                <!-- Projeto 2 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-badge">QA Automation</span>
+                    </div>
+                    <h3 class="project-title">Automação de Testes E-commerce</h3>
+                    <p class="project-description">
+                        Implementação de testes automatizados com Selenium WebDriver e JUnit para plataforma de varejo, cobrindo fluxos de busca, carrinho e checkout.
+                    </p>
+                    <div class="project-techs">
+                        <span class="tech-badge-small">Selenium</span>
+                        <span class="tech-badge-small">JUnit</span>
+                        <span class="tech-badge-small">Java</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/puppejr" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </article>
 
-</main>
-</div>
+                <!-- Projeto 3 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-badge">QA Manual</span>
+                    </div>
+                    <h3 class="project-title">Testes Funcionais - Compass.uol</h3>
+                    <p class="project-description">
+                        Planejamento e execução de testes funcionais e não funcionais, com documentação de cenários e rastreamento de defeitos via Jira Software.
+                    </p>
+                    <div class="project-techs">
+                        <span class="tech-badge-small">Jira</span>
+                        <span class="tech-badge-small">Test Cases</span>
+                        <span class="tech-badge-small">Agile</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#contato" class="project-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                            Saiba mais
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Projeto 4 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-badge">Segurança</span>
+                    </div>
+                    <h3 class="project-title">Análise de Vulnerabilidades Web</h3>
+                    <p class="project-description">
+                        Identificação e análise de vulnerabilidades em aplicações web utilizando ferramentas como TryHackMe e técnicas de Google Dorking.
+                    </p>
+                    <div class="project-techs">
+                        <span class="tech-badge-small">TryHackMe</span>
+                        <span class="tech-badge-small">OWASP</span>
+                        <span class="tech-badge-small">Segurança</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/puppejr" class="project-link" target="_blank" rel="noopener noreferrer">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Educação & Certificações -->
+        <section id="certificacoes" class="section section-alt" aria-labelledby="educacao-title">
+            <div class="container">
+                <h2 id="educacao-title" class="section-title">Educação & Certificações</h2>
+                
+                <div class="education-grid">
+                    <div class="education-column">
+                        <h3 class="subsection-title">🎓 Educação</h3>
+                        <div class="education-item">
+                            <h4>Tecnólogo em Análise e Desenvolvimento de Sistemas</h4>
+                            <p class="education-institution">IFRS – Campus Restinga</p>
+                            <p class="education-period">Mar/2022 – Out/2027</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Técnico em Gestão Desportiva e do Lazer</h4>
+                            <p class="education-institution">IFRS – Campus Restinga</p>
+                            <p class="education-period">Mar/2016 – Jul/2018</p>
+                        </div>
+                    </div>
+
+                    <div class="education-column">
+                        <h3 class="subsection-title">📜 Certificações</h3>
+                        <ul class="certifications-list">
+                            <li>
+                                <strong>Google Dorking</strong> – Google (2022)
+                            </li>
+                            <li>
+                                <strong>Vulnerabilidades 101</strong> – TryHackMe (2023)
+                            </li>
+                            <li>
+                                <strong>Junior Security Analyst Intro</strong> – TryHackMe (2024)
+                            </li>
+                            <li>
+                                <strong>Microsoft SC-900</strong> – Segurança na Nuvem (2024)
+                            </li>
+                            <li>
+                                <strong>AWS Partner: Sales Accreditation / SAP on AWS</strong> (10/2022)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="courses-section">
+                    <h3 class="subsection-title">📚 Cursos Complementares</h3>
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <span class="course-icon">💾</span>
+                            <span>MySQL – Primeiras Tabelas</span>
+                        </div>
+                        <div class="course-card">
+                            <span class="course-icon">☕</span>
+                            <span>Java – Resolvendo Desafios de Código (DIO)</span>
+                        </div>
+                        <div class="course-card">
+                            <span class="course-icon">🌐</span>
+                            <span>HTML – Introdução ao desenvolvimento web</span>
+                        </div>
+                        <div class="course-card">
+                            <span class="course-icon">🔗</span>
+                            <span>DNS – Sistema de Nomes de Domínio</span>
+                        </div>
+                        <div class="course-card">
+                            <span class="course-icon">🔒</span>
+                            <span>Segurança de Aplicativos da Web (TryHackMe)</span>
+                        </div>
+                        <div class="course-card">
+                            <span class="course-icon">🖥️</span>
+                            <span>Introdução a Bash (TryHackMe)</span>
+                        </div>
+                        <div class="course-card">
+                            <span class="course-icon">🔧</span>
+                            <span>Recondicionamento de Computadores (SENAI)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competências -->
+        <section class="section" aria-labelledby="competencias-title">
+            <div class="container">
+                <h2 id="competencias-title" class="section-title">Competências & Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skills-category">
+                        <h3 class="skills-category-title">QA & Testes</h3>
+                        <ul class="skills-list">
+                            <li>QA Manual e Automação</li>
+                            <li>Selenium WebDriver</li>
+                            <li>JUnit</li>
+                            <li>Testes Funcionais</li>
+                            <li>Testes de Regressão</li>
+                            <li>Testes de Integração</li>
+                            <li>Planning Test Cases</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3 class="skills-category-title">Metodologias</h3>
+                        <ul class="skills-list">
+                            <li>Agile</li>
+                            <li>Scrum</li>
+                            <li>Metodologias Ágeis</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3 class="skills-category-title">Ferramentas</h3>
+                        <ul class="skills-list">
+                            <li>Jira Software</li>
+                            <li>X|Decision</li>
+                            <li>Postman</li>
+                            <li>Git / GitHub</li>
+                            <li>Visual Studio Code</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3 class="skills-category-title">Linguagens</h3>
+                        <ul class="skills-list">
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Flutter</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3 class="skills-category-title">Sistemas</h3>
+                        <ul class="skills-list">
+                            <li>Linux</li>
+                            <li>Windows</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Voluntariado -->
+        <section class="section section-alt" aria-labelledby="voluntariado-title">
+            <div class="container">
+                <h2 id="voluntariado-title" class="section-title">Voluntariado</h2>
+                <div class="volunteer-grid">
+                    <article class="volunteer-card">
+                        <h3 class="volunteer-title">Grupo Escoteiro Dom Bosco/RS 191-RS</h3>
+                        <p class="volunteer-period">1988 – 1997</p>
+                        <ul class="volunteer-list">
+                            <li>Liderança e trabalho em equipe em acampamentos e projetos comunitários</li>
+                            <li>Serviço comunitário: plantio de árvores, limpeza de áreas públicas</li>
+                            <li>Programas de primeiros socorros e sobrevivência na natureza</li>
+                        </ul>
+                    </article>
+                    <article class="volunteer-card">
+                        <h3 class="volunteer-title">Projeto de Portfólio para Colega de Curso</h3>
+                        <p class="volunteer-period">Ano 2020</p>
+                        <ul class="volunteer-list">
+                            <li>Design gráfico de layout profissional</li>
+                            <li>Estruturação clara de conteúdo para possíveis empregadores</li>
+                            <li>Feedback iterativo e revisões colaborativas</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="section" aria-labelledby="contato-title">
+            <div class="container contato-container">
+                <h2 id="contato-title" class="section-title">Vamos Conversar?</h2>
+                <p class="section-intro">
+                    Estou sempre aberto a novas oportunidades em Quality Assurance e colaborações em projetos de tecnologia.
+                </p>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <a href="mailto:seuemail@email.com" class="contact-link">seuemail@email.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/seu-perfil" class="contact-link" target="_blank" rel="noopener noreferrer">linkedin.com/in/seu-perfil</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🐙</div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/puppejr" class="contact-link" target="_blank" rel="noopener noreferrer">github.com/puppejr</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Localização</h3>
+                        <p class="contact-text">Porto Alegre, RS - Brasil</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer-container">
+            <p>&copy; 2026 Puppe Jr. Todos os direitos reservados.</p>
+            <p class="footer-note">Desenvolvido com HTML5 semântico e CSS3.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
