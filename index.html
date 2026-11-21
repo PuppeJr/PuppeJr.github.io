@@ -8,29 +8,24 @@
     <link rel="stylesheet" href="./static/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-
     <!-- SEO Meta Tags -->
     <title>Puppe Jr | Analista de QA | Estudante de ADS | Porto Alegre, RS</title>
-    <meta name="description"
-        content="Estudante de ADS no IFRS com experiência em Quality Assurance, testes manuais, planejamento de testes e desenvolvimento de software.">
-    <meta name="keywords"
-        content="Quality Assurance, QA, Testes de Software, Testes Manuais, Jira, Porto Alegre, IFRS, ADS, Java, JavaScript, HTML5, CSS3">
+    <meta name="description" content="Estudante de ADS no IFRS com experiência em Quality Assurance, testes manuais, planejamento de testes e desenvolvimento de software.">
+    <meta name="keywords" content="Quality Assurance, QA, Testes de Software, Testes Manuais, Jira, Porto Alegre, IFRS, ADS, Java, JavaScript, HTML5, CSS3">
     <meta name="author" content="Puppe Jr">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://puppejr.github.io/">
 
     <!-- Open Graph / Social Media -->
     <meta property="og:title" content="Puppe Jr | Analista de QA | Estudante de ADS">
-    <meta property="og:description"
-        content="Estudante de ADS com experiência em testes funcionais, planejamento de testes e desenvolvimento de software.">
+    <meta property="og:description" content="Estudante de ADS com experiência em testes funcionais, planejamento de testes e desenvolvimento de software.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://puppejr.github.io/">
     <meta property="og:image" content="https://puppejr.github.io/static/images/novo1.jpeg">
     <meta property="og:image:alt" content="Puppe Jr - Analista de QA | Estudante de ADS">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Puppe Jr | Analista de QA | Estudante de ADS">
-    <meta name="twitter:description"
-        content="Estudante de ADS com experiência em testes funcionais, planejamento de testes e desenvolvimento de software.">
+    <meta name="twitter:description" content="Estudante de ADS com experiência em testes funcionais, planejamento de testes e desenvolvimento de software.">
     <meta name="twitter:image" content="https://puppejr.github.io/static/images/novo1.jpeg">
 
     <!-- Favicon -->
@@ -42,6 +37,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- Estilos específicos para a nova seção de Projetos (caso ainda não estejam no styles.css) -->
+    <style>
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .project-card {
+            background: var(--bg-secondary, #f8f9fa);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid var(--border-color, #e9ecef);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .project-category {
+            display: inline-block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--primary-color, #2563eb);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+        .project-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text-primary, #111827);
+        }
+        .project-description {
+            color: var(--text-secondary, #4b5563);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .btn-sm {
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -49,11 +97,11 @@
     <header class="header" role="banner">
         <nav class="nav" role="navigation" aria-label="Menu principal">
             <div class="container nav-container">
-                <a href="#inicio" class="logo" aria-label="Puppe Jr - QA Analyst">Puppe Jr<span class="logo-subtitle">QA
-                        Analyst</span></a>
+                <a href="#inicio" class="logo" aria-label="Puppe Jr - QA Analyst">Puppe Jr<span class="logo-subtitle">QA Analyst</span></a>
                 <ul class="nav-list">
                     <li><a href="#sobre" class="nav-link">Sobre</a></li>
                     <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
                     <li><a href="#certificacoes" class="nav-link">Certificações</a></li>
                     <li><a href="#contato" class="nav-link btn-contato">Contato</a></li>
                 </ul>
@@ -71,13 +119,8 @@
         <section id="inicio" class="hero" aria-labelledby="hero-title">
             <div class="container hero-container">
                 <div class="hero-content">
-                    <h1 id="hero-title" class="hero-title">
-                        Analista de QA | Estudante de ADS
-                    </h1>
-                    <p class="hero-subtitle">
-                        Especialista em testes manuais e automatizados, com foco em qualidade de software e segurança da
-                        informação.
-                    </p>
+                    <h1 id="hero-title" class="hero-title">Analista de QA | Estudante de ADS</h1>
+                    <p class="hero-subtitle">Especialista em testes manuais e automatizados, com foco em qualidade de software e segurança da informação.</p>
                     <div class="hero-cta">
                         <a href="#experiencia" class="btn btn-primary">Ver Experiência</a>
                         <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
@@ -99,12 +142,8 @@
                 <h2 id="sobre-title" class="section-title">Sobre</h2>
                 <div class="about-grid">
                     <div class="about-content">
-                        <p class="lead">
-                            Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong>, com experiência profissional em <strong>Quality Assurance</strong>, testes manuais, planejamento de testes e documentação de cenários.
-                        </p>
-                        <p>
-                            Conhecimentos em <strong>Python, Java, JavaScript, HTML5, CSS3</strong> e bancos de dados, desenvolvidos na formação em ADS pelo IFRS e em projetos acadêmicos.
-                        </p>
+                        <p class="lead">Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong>, com experiência profissional em <strong>Quality Assurance</strong>, testes manuais, planejamento de testes e documentação de cenários.</p>
+                        <p>Conhecimentos em <strong>Python, Java, JavaScript, HTML5, CSS3</strong> e bancos de dados, desenvolvidos na formação em ADS pelo IFRS e em projetos acadêmicos.</p>
                         <div class="about-highlights">
                             <div class="highlight-card">
                                 <span class="highlight-icon">🎯</span>
@@ -220,7 +259,74 @@
             </div>
         </section>
 
-        
+        <!-- Projetos (Seção Reestruturada e Adicionada) -->
+        <section id="projetos" class="section" aria-labelledby="projetos-title">
+            <div class="container">
+                <h2 id="projetos-title" class="section-title">Projetos em Destaque</h2>
+                <p class="section-intro" style="text-align: center; max-width: 800px; margin: 0 auto 2rem auto; color: var(--text-secondary, #666);">
+                    Confira meus principais projetos em Quality Assurance com documentação profissional e rastreabilidade completa.
+                </p>
+                
+                <div class="projects-grid">
+                    <!-- Projeto 1: QA Automation -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-category">QA Automation</span>
+                            <h3 class="project-title">Automação de Testes E-commerce</h3>
+                        </div>
+                        <p class="project-description">
+                            Implementação de testes automatizados com Selenium WebDriver e JUnit para plataforma de varejo, cobrindo fluxos de busca, carrinho e checkout.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Selenium</span>
+                            <span class="tag">JUnit</span>
+                            <span class="tag">Java</span>
+                        </div>
+                        <a href="https://github.com/puppejr" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                            Ver no GitHub
+                        </a>
+                    </article>
+
+                    <!-- Projeto 2: QA Manual -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-category">QA Manual</span>
+                            <h3 class="project-title">Testes Funcionais - Compass.uol</h3>
+                        </div>
+                        <p class="project-description">
+                            Planejamento e execução de testes funcionais e não funcionais, com documentação de cenários e rastreamento de defeitos via Jira Software.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Jira</span>
+                            <span class="tag">Test Cases</span>
+                            <span class="tag">Agile</span>
+                        </div>
+                        <a href="#experiencia" class="btn btn-secondary btn-sm">
+                            Saiba mais
+                        </a>
+                    </article>
+
+                    <!-- Projeto 3: Segurança -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-category">Segurança</span>
+                            <h3 class="project-title">Análise de Vulnerabilidades Web</h3>
+                        </div>
+                        <p class="project-description">
+                            Identificação e análise de vulnerabilidades em aplicações web utilizando ferramentas como TryHackMe e técnicas de Google Dorking.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">TryHackMe</span>
+                            <span class="tag">OWASP</span>
+                            <span class="tag">Segurança</span>
+                        </div>
+                        <a href="https://github.com/puppejr" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                            Ver no GitHub
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
 
         <!-- Educação & Certificações -->
         <section id="certificacoes" class="section section-alt" aria-labelledby="educacao-title">
@@ -245,21 +351,11 @@
                     <div class="education-column">
                         <h3 class="subsection-title">📜 Certificações</h3>
                         <ul class="certifications-list">
-                            <li>
-                                <strong>Google Dorking</strong> – Google (2022)
-                            </li>
-                            <li>
-                                <strong>Vulnerabilidades 101</strong> – TryHackMe (2023)
-                            </li>
-                            <li>
-                                <strong>Junior Security Analyst Intro</strong> – TryHackMe (2024)
-                            </li>
-                            <li>
-                                <strong>Microsoft SC-900</strong> – Segurança na Nuvem (2024)
-                            </li>
-                            <li>
-                                <strong>AWS Partner: Sales Accreditation / SAP on AWS</strong> (10/2022)
-                            </li>
+                            <li><strong>Google Dorking</strong> – Google (2022)</li>
+                            <li><strong>Vulnerabilidades 101</strong> – TryHackMe (2023)</li>
+                            <li><strong>Junior Security Analyst Intro</strong> – TryHackMe (2024)</li>
+                            <li><strong>Microsoft SC-900</strong> – Segurança na Nuvem (2024)</li>
+                            <li><strong>AWS Partner: Sales Accreditation / SAP on AWS</strong> (10/2022)</li>
                         </ul>
                     </div>
                 </div>
@@ -309,8 +405,6 @@
                         <h3 class="skills-category-title">QA & Testes</h3>
                         <ul class="skills-list">
                             <li>QA Manual</li>
-                            
-                            
                             <li>Testes Funcionais</li>
                             <li>Testes de Regressão</li>
                             <li>Testes de Integração</li>
@@ -387,33 +481,24 @@
         <section id="contato" class="section" aria-labelledby="contato-title">
             <div class="container contato-container">
                 <h2 id="contato-title" class="section-title">Vamos Conversar?</h2>
-                <p class="section-intro">
-                    Estou aberto a oportunidades em Quality Assurance, desenvolvimento de software e tecnologia.
-                </p>
+                <p class="section-intro">Estou aberto a oportunidades em Quality Assurance, desenvolvimento de software e tecnologia.</p>
                 <div class="contact-grid">
                     <div class="contact-card">
                         <div class="contact-icon">📧</div>
                         <h3>Email</h3>
-                        <a href="mailto:seuemail@email.com" class="contact-link">puppejunior@gmail.com</a>
+                        <a href="mailto:puppejunior@gmail.com" class="contact-link">puppejunior@gmail.com</a>
                     </div>
                     <div class="contact-card">
-    <div class="contact-icon">💼</div>
-    <h3>LinkedIn</h3>
-    <a
-        href="https://www.linkedin.com/in/paulo-fernando-puppe-junior/"
-        class="contact-link"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Abrir perfil de Paulo Fernando Puppe Junior no LinkedIn"
-    >
-        linkedin.com/in/paulo-fernando-puppe-junior
-    </a>
-</div>
+                        <div class="contact-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/paulo-fernando-puppe-junior/" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Abrir perfil de Paulo Fernando Puppe Junior no LinkedIn">
+                            linkedin.com/in/paulo-fernando-puppe-junior
+                        </a>
+                    </div>
                     <div class="contact-card">
                         <div class="contact-icon">🐙</div>
                         <h3>GitHub</h3>
-                        <a href="https://github.com/puppejr" class="contact-link" target="_blank"
-                            rel="noopener noreferrer">github.com/puppejr</a>
+                        <a href="https://github.com/puppejr" class="contact-link" target="_blank" rel="noopener noreferrer">github.com/puppejr</a>
                     </div>
                     <div class="contact-card">
                         <div class="contact-icon">📍</div>
@@ -434,7 +519,7 @@
     </footer>
 
     <!-- JavaScript -->
-<script src="static/js/script.js"></script>
+    <script src="static/js/script.js"></script>
 </body>
 
 </html>
